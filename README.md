@@ -4,7 +4,14 @@
 > — Belmont Labs Research Division
 
 **SyncDAT** is the Windows desktop sync bridge between your World of Warcraft client and the [WhoDASH](https://www.belmontlabs.dev) web dashboard. It handles both directions of data flow — uploading your SavedVariables to the dashboard, and downloading dashboard-generated addon files back to your WoW client.
-
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" valign="top"><img src="readmefiles/1.jpg" width="400" alt="GUI" /></td>
+    <td align="center" valign="top"><img src="readmefiles/2.jpg" width="400" alt="GUI" /></td>
+    <td align="center" valign="top"><img src="readmefiles/3.jpg" width="400" alt="GUI" /></td>
+    <td align="center" valign="top"><img src="readmefiles/4.jpg" width="400" alt="GUI" /></td>
+  </tr>
+</table>
 ---
 
 ## ⬇️ Download
