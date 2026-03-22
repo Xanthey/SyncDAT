@@ -1,0 +1,36 @@
+{
+  "ApiKey": "your-api-key-here",
+  "ApiEndpoint": "https://your-domain.com/api/",
+  "WoWBasePath": "C:\\World of Warcraft\\_classic_era_\\",
+  "MinimizeToTray": true,
+  "StartWithWindows": false,
+  "UploadDelaySeconds": 60,
+  "EnableSizeNotifications": true,
+  "EnableAutoBackup": false,
+  "BackupSizeThresholdMB": 5.0,
+
+  "EnableAutoSync": false,
+  "AutoSyncIntervalMinutes": 30,
+
+  "SyncTargets": [
+    {
+      "Name": "TheGrudge",
+      "EndpointPath": "grudge_export.php",
+      "OutputFileName": "TheGrudgeDB.lua",
+      "OutputDirectory": "C:\\World of Warcraft\\_classic_era_\\Interface\\AddOns\\TheGrudge",
+      "Enabled": true,
+      "LastSync": null,
+      "LastError": null
+    }
+  ],
+
+  "Characters": [
+    {
+      "CharacterName": "Xanthey",
+      "FilePath": "C:\\World of Warcraft\\_classic_era_\\WTF\\Account\\MYACCOUNT\\SavedVariables\\WhoDAT.lua",
+      "Enabled": true,
+      "LastUpload": null,
+      "LastError": null
+    }
+  ]
+}

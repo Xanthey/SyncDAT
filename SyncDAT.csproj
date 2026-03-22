@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <AssemblyName>SyncDAT</AssemblyName>
+    <Product>Belmont Labs - SyncDAT</Product>
+    <Version>4.0.0</Version>
+    <Authors>WhoDASH / Belmont Labs</Authors>
+    <Description>SyncDAT — WoW SavedVariables sync bridge for WhoDASH. Uploads WhoDAT.lua and downloads dashboard-generated addon files.</Description>
+    
+    <!-- Optimization settings -->
+    <DebugType>embedded</DebugType>
+    <SelfContained>false</SelfContained>
+  </PropertyGroup>
+
+  <!-- Embed icon as resource AND copy to output directory -->
+  <ItemGroup>
+    <EmbeddedResource Include="icon.ico" Condition="Exists('icon.ico')" />
+    <Content Include="icon.ico" Condition="Exists('icon.ico')">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualBasic" Version="10.3.0" />
+  </ItemGroup>
+
+</Project>

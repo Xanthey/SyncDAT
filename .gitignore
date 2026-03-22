@@ -1,0 +1,19 @@
+# Build output
+bin/
+obj/
+
+# Runtime config (user-specific, may contain API keys)
+config.json
+
+# Crash log
+crash.log
+
+# VS / Rider
+.vs/
+.idea/
+*.user
+*.suo
+
+# OS
+Thumbs.db
+.DS_Store
